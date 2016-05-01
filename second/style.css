@@ -1,0 +1,78 @@
+/*html {
+	width: 100%;
+	height: 100%;
+}*/
+
+* {
+	box-sizing: border-box;;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	padding: 25px 50px;
+    background-color: gray;
+    position: relative;
+}
+
+section {
+	background-color: white;
+	position: relative;
+	height: 400px;
+	width: 100%;
+	margin-bottom: 40px;
+	padding: 10px 0;
+}
+
+p {
+	text-align: center;
+	padding: 20px;
+}
+
+button {
+	margin: 10px;
+	float: left;
+	display: inline-block;
+	height: 50px;
+	width: 100px;
+	color: white;
+	font-size: x-large;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+img {
+	background: url("https://images.unsplash.com/photo-1453668069544-b8dbea7a0477?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300") no-repeat center;
+	background-size: cover;
+	height: 300px;
+	width: 650px;
+	margin: auto;
+	display: block;
+}
+
+
+.imgContainer {
+	background-color: white;
+    position: relative;
+    height: 450px;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+
+
+
